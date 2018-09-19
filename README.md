@@ -4,9 +4,9 @@
 
 [Docker](https://www.docker.com/what-docker) image for [Apache Zeppelin](http://zeppelin.apache.org)
 
-- ![Docker builds](https://img.shields.io/docker/automated/xemuliam/zeppelin.svg) ![Docker Pulls](https://img.shields.io/docker/pulls/xemuliam/zeppelin.svg) ![Docker Stars](https://img.shields.io/docker/stars/xemuliam/zeppelin.svg)
+- ![Docker builds](https://img.shields.io/docker/automated/huangxinping/zeppelin.svg) ![Docker Pulls](https://img.shields.io/docker/pulls/huangxinping/zeppelin.svg) ![Docker Stars](https://img.shields.io/docker/stars/huangxinping/zeppelin.svg)
 
-Created from Zepplin [base image](https://hub.docker.com/r/xemuliam/zeppelin-base) to minimize traffic and deployment time in case of changes should be applied on top of Zeppelin.
+Created from Zepplin [base image](https://hub.docker.com/r/huangxinping/zeppelin-base) to minimize traffic and deployment time in case of changes should be applied on top of Zeppelin.
 
 ## Why base image is required?
 
