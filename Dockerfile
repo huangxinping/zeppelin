@@ -1,5 +1,5 @@
 FROM       huangxinping/zeppelin-base:0.8.0
-MAINTAINER Viacheslav Kalashnikov <xemuliam@gmail.com>
+MAINTAINER huangxinping <o0402@outlook.com>
 ENV        HOMESCREEN="" \
            HOMESCREEN_HIDE=""
 RUN        apk add --no-cache \
