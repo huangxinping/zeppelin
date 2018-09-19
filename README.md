@@ -99,7 +99,7 @@ Ensure the following pre-requisites are met (due to some blocker bugs in earlier
 ## How to use from Kitematic
 
 1. Start Kitematic
-2. Enter `xemuliam` in serach box
+2. Enter `huangxinping` in serach box
 3. Choose `zeppelin` image
 4. Click `Create` button
 
@@ -109,7 +109,7 @@ Kitematic will assign all ports and you'll be able to run NiFi web-interface dir
 ## How to use from Docker CLI
 
 1. Start Docker Quickstart Terminal
-2. Run command  `docker run -d -p 8080:8080 -p 8443:8443 xemuliam/zeppelin`
+2. Run command  `docker run -d -p 8080:8080 -p 8443:8443 -e ANONYMOUS_DENIED=false -v /opt/zeppelin/logs:/opt/zeppelin/logs -v /opt/zeppelin/notebook:/opt/zeppelin/notebook huangxinping/zeppelin`
 3. Check Docker machine IP  `docker-machine ls`
 4. Use IP from previous step in address bar of your favorite browser, e.g. ` http://192.168.99.100:8080/#/`
 
